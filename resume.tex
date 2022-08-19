@@ -1,98 +1,120 @@
-\documentclass{resume} 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Badri Narayanan} % Your name
-\address{North of the Wall, Outside the reach of every kingdom} 
-\address{(+0)9999999999 \\ badri202@gmail.com}
+\documentclass[margin,line]{res}
+\usepackage{hyperref}
+\usepackage{url}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\topmargin=0in
+\topskip=0in
+ 
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
+
+    
 \begin{document}
 
-\begin{rSection}{Education}
+\name{\LARGE Johnny B. Good} \hfill {\em \today}
 
+\begin{resume}
+\section{\sc Contact Information}
 
-{\bf Indian Institute of Technology, Gandhinagar} \hfill {\em July 2016 - May 2020} 
-\\ Bachelor of Engineering, Computer.\hfill { Overall CGPA: 9.05 }
-
-\end{rSection}
-
-\begin{rSection}{Career Objective}
- To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.
-\end{rSection}
-
-\begin{rSection}{Projects}
-{\bf GitHub Notifier}
-\\This project aims at providing real time information of events from GitHub and notify you accordingly. The project is in ready-to-deployment stage on a demo server as a cron-job. The notification engine  used for real time tracking is completely based on the python implementation assembled in an Android App with firebase cloud support.
-
-{\bf GitHub Notifier}
-\\This project aims at providing real time information of events from GitHub and notify you accordingly. The project is in ready-to-deployment stage on a demo server as a cron-job. The notification engine  used for real time tracking is completely based on the python implementation assembled in an Android App with firebase cloud support.
-
-\end{rSection}
-
-\begin{rSection}{Technical Strengths}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages \ & C, C++, Python, Java, C\#  \\
-Technologies & MVC, HTML5, CSS, Latex\\
-Tools & MikTex, Kile, Netbeans \\
-Databases & MySql, Oracle, Sqlite, NoSql\\
-Cloud Technologies & Firebase, AWS, Google Cloud\\
-Version Control & Github
+\vspace{.05in}
+\begin{tabular}{@{}p{3.5in}p{3in}}
+Programmer Analyst             & {Phone:}  (123) 456-7890 \\
+Google Inc. 
+ & {E-mail:}  abc@google.com\\
+Suite 1, 23 Peachtree Street.\\
+Atlanta, GA, 30305  & {Website:} \url{quicklatex.blogspot.com}
 \end{tabular}
 
-\end{rSection}
-% 
-% 
-% \newpage
-\begin{rSection}{Work Experience}
-\begin{rSubsection}{Reversible Alphabet Pvt. Ltd., India}{Jun 2017 - Dec 2018}{Data Scientist}{}
- \item Created classification models for e-commerce websites using neural networks.
- \item Achieved exposure towards classification optimaization techniques for further specialization.
- \item Worked under an experenced Data Scientist and got deep insights related to optimization algorithms.
-\end{rSubsection}
-\begin{rSubsection}{Irreversible Alphabet Pvt. Ltd., India}{Jun 2016 - Dec 2016}{Data Scientist}{}
- \item Created classification models for e-commerce websites using neural networks.
- \item Achieved exposure towards classification optimaization techniques for further specialization.
- \item Worked under an experenced Data Scientist and got deep insights related to optimization algorithms.
-\end{rSubsection}
 
-\end{rSection}
-% 
-\newpage
-\begin{rSection}{Academic Achievements} 
-\item Project 'XYZ' won Best Project under Environmental Solver category under AICTE, Government of India
-\item Recieved Scholarship For Higher Education(She) Component Under Inspire Scheme worth INR 4,00,000
-\item Achived A Grade in Diploma in Computer Science from IBM
-\item Won First Prize in Zonal technical quiz Competition Organized by IIT, Mumbai.
-\item Project 'XYZ' won Best Project under Environmental Solver category under AICTE, Government of India
-\item Recieved Scholarship For Higher Education(She) Component Under Inspire Scheme worth INR 4,00,000
-\item Achived A Grade in Diploma in Computer Science from IBM
-\item Won First Prize in Zonal technical quiz Competition Organized by IIT, Mumbai.
-\end{rSection}
+\section{\sc Interests}
 
-\begin{rSection}{Extra-Cirrucular} 
-\item Attended a workshop on Machine Learning and artificial intelligence from faculties of IIT Roorkee in 2019 and won zonal round for the challenge presented.
-\item Member of the  Institute of Engineers since 2017.
-\item Completed Basic Leadership Training under Project NSS, Gujarat
-\item Attended a workshop on Machine Learning and artificial intelligence from faculties of IIT Roorkee in 2019 and won zonal round for the challenge presented.
-\item Member of the  Institute of Engineers since 2017.
-\item Completed Basic Leadership Training under Project NSS, Gujarat
-\item Attended a workshop on Machine Learning and artificial intelligence from faculties of IIT Roorkee in 2019 and won zonal round for the challenge presented.
-\item Member of the  Institute of Engineers since 2017.
-\item Completed Basic Leadership Training under Project NSS, Gujarat
+Software engineering, Web API development
 
-\end{rSection}
-\begin{rSection}{Research Profile}
- \item Student President, Technology and Research, IIT Gandhinagar
- \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.3, Status: Published)
- \item Student President, Technology and Research, IIT Gandhinagar
- \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.3, Status: Published)
- \item Student President, Technology and Research, IIT Gandhinagar
- \item Publication : ABC, IOT IEEE Transactions (Impact Factor: 9.5, Status: Published)
-\end{rSection}
+\section{\sc Education}
+{\bf XYZ University}, City, State. Country \hfill August 2008 -- present\\
+%\vspace*{-.1in}
+Name of the Degree \hfill(GPA 3.97/4.0)
+
+{\bf ABC University}, City, State. Country \hfill August 2005 -- August 2007\\
+Name of the degree \hfill(GPA 4.0/4.0)
+
+\section{\sc Awards and Fellowships}
+Award 1\\
+Fellowship 1\\
+\section{\sc Personal Achievements}
+Achievement 1\\
+Achievement 2\\
+\section{\sc Technical Skills}
+{\bf Programming and Scripting Languages}:  C, C\#, Windows Azure, Python, OpenMP, PThreads, SSE (Streaming SIMD extension), Visual Basic, SQL, PL/SQL, HTML, XML, XSLT, PHP, VBScript, Prolog, DRC, Data-log, Shell Scripting\\
+{\bf Operating Systems}: Windows, Linux, Mac OSX\\
+{\bf Tools}: Intel VTunes, GDB, Valgrind, Latex, Subversion, Crystal Reports, Informatica, Business Objects, IBM WebSphere Studio, MicroStrategy, Rational Rose Suite, Macromedia Dreamweaver,Adobe Photoshop \\
+{\bf Database Tools}: Oracle, MySql, DB2, CloudScape, MS-Access 
+%%%%%%%%%%%%%%%%%%%
+\section{\sc Professional Experience}
+%%%%%%
+{\bf Institution}, City, State. Country. \hfill{August 2008 -- Present}\\
+{\em First Job Name}\hfill {Summer 2011, June 2011 -- July 2011}\\
+\begin{list2} %Job Description%
+\item Responsible for XYZ \\
+\item Responsible for ABC\\
+\end{list2}
+%%%%%%
+{\em Second Job Name}\hfill {August 2009 -- January 2010}\\
+\begin{list2} %Job Description%
+\item Responsible for XYZ \\
+\item Responsible for ABC\\
+\end{list2}
+{\bf Institution 2}, City, State. Country. \hfill{August 2008 -- Present}\\
+{\em First Job Name}\hfill {Summer 2011, June 2011 -- July 2011}\\
+\begin{list2} %Job Description%
+\item Responsible for XYZ \\
+\item Responsible for ABC\\
+\end{list2}
+%%%%%%
+{\em Second Job Name}\hfill {August 2009 -- January 2010}\\
+\begin{list2} %Job Description%
+\item Responsible for XYZ \\
+\item Responsible for ABC\\
+\end{list2}
+%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
+\section{\sc Projects}
+{\bf Project Name}\\
+Project Details\\
+
+{\bf Project Name}\\
+Project Details\\
+
+\section{\sc Publications}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{list2}
+\item LastName Author1, First initial., LastName Author2, First initial.,  "Title",{\em Where published}, Date
+\item LastName Author1, First initial., LastName Author2, First initial.,  "Title",{\em Where published}, Date
+\end{list2}
 
 
+\section{\sc References }
+Available upon request.
 
-
-
+\end{resume}
 \end{document}
+
+
+
+
